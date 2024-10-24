@@ -24,16 +24,19 @@ const About = () => {
             md:text-xl md:max-w-[60ch]">
                 Welcome! I&apos;m Jaden Johnson, I will be putting the rest of my about me here once I am done developing my portfolio website. Please feel free to keep checking in to see how it's going!
             </p>
-            <div className="">
+            <div className="flex flex-wrap items-center gap-4
+            md:gap-7">
                 {
                     aboutItems.map(({ label, number}, key) => (
                         <div key={key}>
-                            <div className="">
-                                <span className="">{number}</span>
-                                <span className="">+</span>
+                            <div className="flex items-center md:mb-2">
+                                <span className="text-2xl font-semibold
+                                md:text-4xl">{number}</span>
+                                <span className="text-sky-400
+                                font-semibold md:text-3xl">+</span>
                             </div>
 
-                            <p className="">{label}</p>
+                            <p className="text-sm text-zinc-400">{label}</p>
                         </div>
                     ))
                 }
@@ -43,7 +46,7 @@ const About = () => {
                 alt="Logo" 
                 width={30}
                 height={30}
-                className="" 
+                className="ml-auto md:w-[40px] md:h-[40px]" 
                 />
             </div>
         </div>

@@ -28,7 +28,7 @@ const Hero = () => {
                             rounded-full bg-emerald-400 animate-ping"></span>
                         </span>
 
-                        Available for work
+                        Looking for work
                     </div>
                 </div>
                 <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch]
