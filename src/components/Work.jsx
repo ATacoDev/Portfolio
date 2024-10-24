@@ -2,22 +2,22 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/DotiRockWall.png',
+      title: 'Campus',
+      tags: ['PostgreSQL', 'ExpressJS', 'React', 'NodeJS'],
+      projectLink: 'https://github.com/ATacoDev/Campus'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      imgSrc: '/images/Gradify.jpg',
+      title: 'Gradify',
+      tags: ['PostgreSQL', 'ExpressJS', 'React', 'NodeJS'],
+      projectLink: 'https://devpost.com/software/gradify'
     },
     {
       imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
+      title: 'Roll A Ball',
+      tags: ['Unity', 'C#'],
+      projectLink: 'https://jadjohnson.wixsite.com/atacodev/portfolio-collections/my-portfolio/project-title-6'
     },
     {
       imgSrc: '/images/project-4.jpg',
