@@ -2,9 +2,9 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
+      imgSrc: '/images/html5.svg',
+      label: 'HTML',
+      desc: 'User Interface'
     },
     {
       imgSrc: '/images/css3.svg',
@@ -27,8 +27,8 @@ const skillItem = [
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
+      imgSrc: '/images/postgres.svg',
+      label: 'PostgreSQL',
       desc: 'Database'
     },
     {
@@ -37,9 +37,29 @@ const skillItem = [
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface'
+      imgSrc: '/images/cpp.svg',
+      label: 'C++',
+      desc: 'Programming Language'
+    },
+    {
+      imgSrc: '/images/CSharp.svg',
+      label: 'C#',
+      desc: 'Programming Language'
+    },
+    {
+      imgSrc: '/images/python.svg',
+      label: 'Python',
+      desc: 'Programming Language'
+    },
+    {
+      imgSrc: '/images/unity.svg',
+      label: 'Unity',
+      desc: 'Development Environment'
+    },
+    {
+      imgSrc: '/images/git.svg',
+      label: 'Git',
+      desc: 'Version Control'
     },
   ];
 
