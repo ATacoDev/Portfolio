@@ -1,10 +1,10 @@
 const aboutItems = [
     {
-      label: 'Lines Coded',
-      number: 2
+      label: 'League of Legends games lost',
+      number: 1000
     },
     {
-      label: 'League Games lost',
+      label: 'Lines Coded',
       number: 100000
     }
   ];

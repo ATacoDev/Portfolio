@@ -2,41 +2,48 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/DotiRockWall.png',
+      imgSrc: '/images/Campus.svg',
       title: 'Campus',
+      description: 'Campus is an all-in-one app that helps college students and staff manage activities, track achievements, and stay connected with campus resources and announcements.',
       tags: ['PostgreSQL', 'ExpressJS', 'React', 'NodeJS'],
       projectLink: 'https://github.com/ATacoDev/Campus'
     },
     {
-      imgSrc: '/images/Gradify.jpg',
+      imgSrc: '/images/Gradify.svg',
       title: 'Gradify',
+      description: "We've all had hardships in our education. Gradify is here to show you that you're not alone!",
       tags: ['PostgreSQL', 'ExpressJS', 'React', 'NodeJS'],
       projectLink: 'https://devpost.com/software/gradify'
     },
     {
-      imgSrc: '/images/project-3.jpg',
+      imgSrc: '/images/RAB.svg',
       title: 'Roll A Ball',
+      description: 'A horror ball adventure game written in Unity with C#',
       tags: ['Unity', 'C#'],
       projectLink: 'https://jadjohnson.wixsite.com/atacodev/portfolio-collections/my-portfolio/project-title-6'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      imgSrc: '/images/Sick.svg',
+      title: 'Sick.',
+      description: 'Save Rural Light in this rouge-like adventure game!',
+      tags: ['Unity', 'C#'],
+      projectLink: 'https://github.com/ATacoDev/Sick.'
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      imgSrc: '/images/PythonG.svg',
+      title: 'Python Genetic Algorithm Visualizer',
+      description: 'A genetic algorithm visualizer written in Python',
+      tags: ['Python'],
+      projectLink: 'https://github.com/ATacoDev/SchoolProjects/blob/master/CPSC390/JadenJohnsonProject2.ipynb'
     },
     {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      imgSrc: '/images/Mario.svg',
+      title: 'The Mario Project',
+      description: 'Chapman Universities notorious Data Strucutures and Algorithms assignment... The Mario Project',
+      tags: ['C++'],
+      projectLink: 'https://github.com/ATacoDev/SchoolProjects/tree/master/CPSC350/MarioProject'
     },
+    
   ];
 
 const Work = () => {
@@ -53,11 +60,12 @@ const Work = () => {
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-                {works.map(({ imgSrc, title, tags, projectLink}, key) => (
+                {works.map(({ imgSrc, title, description, tags, projectLink}, key) => (
                     <ProjectCard
                     key={key}
                     imgSrc={imgSrc}
                     title={title}
+                    description={description}
                     tags={tags}
                     projectLink={projectLink}
                     />

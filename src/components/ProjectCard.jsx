@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 const ProjectCard = ({
     imgSrc,
     title,
+    description,  // Add description prop
     tags,
     projectLink,
     classes
@@ -24,13 +25,18 @@ const ProjectCard = ({
 
 
             <div>
-                <h3 className="title-1 mb-3">
+                <h3 className="title-1 mb-1"> {/* Reduce margin-bottom to make room for description */}
                     {title}
                 </h3>
 
+                {/* Description under the title */}
+                <p className="text-sm text-zinc-400 mb-3"> {/* Smaller font and lighter color */}
+                    {description}
+                </p>
+
                 <div className="flex flex-wrap items-center
                 gap-2">
-                    {tags.map((label, key) => {
+                    {tags.map((label, key) => (
                         <span 
                         key={key}
                         className="h-8 text-sm text-zinc-400
@@ -39,7 +45,7 @@ const ProjectCard = ({
                         >
                             {label}
                         </span>
-                    })}
+                    ))}
                 </div>
             </div>
 
@@ -68,9 +74,10 @@ const ProjectCard = ({
 ProjectCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    description: PropTypes.string,  // Add description to propTypes
     tags: PropTypes.array.isRequired,
     projectLink: PropTypes.string,
     classes: PropTypes.string
 }
 
-export default ProjectCard
+export default ProjectCard;
