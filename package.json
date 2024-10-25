@@ -2,7 +2,7 @@
   "name": "henry-clark",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ATacoDev.github.io/Portfolio",
+  "homepage": "https://atacodev.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
