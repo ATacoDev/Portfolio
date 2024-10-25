@@ -2,62 +2,62 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/html5.svg',
+      imgSrc: 'images/html5.svg',
       label: 'HTML',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/css3.svg',
+      imgSrc: 'images/css3.svg',
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/javascript.svg',
+      imgSrc: 'images/javascript.svg',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
+      imgSrc: 'images/nodejs.svg',
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
-      imgSrc: '/images/expressjs.svg',
+      imgSrc: 'images/expressjs.svg',
       label: 'ExpressJS',
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/images/postgres.svg',
+      imgSrc: 'images/postgres.svg',
       label: 'PostgreSQL',
       desc: 'Database'
     },
     {
-      imgSrc: '/images/react.svg',
+      imgSrc: 'images/react.svg',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/cpp.svg',
+      imgSrc: 'images/cpp.svg',
       label: 'C++',
       desc: 'Programming Language'
     },
     {
-      imgSrc: '/images/CSharp.svg',
+      imgSrc: 'images/CSharp.svg',
       label: 'C#',
       desc: 'Programming Language'
     },
     {
-      imgSrc: '/images/python.svg',
+      imgSrc: 'images/python.svg',
       label: 'Python',
       desc: 'Programming Language'
     },
     {
-      imgSrc: '/images/unity.svg',
+      imgSrc: 'images/unity.svg',
       label: 'Unity',
       desc: 'Development Environment'
     },
     {
-      imgSrc: '/images/git.svg',
+      imgSrc: 'images/git.svg',
       label: 'Git',
       desc: 'Version Control'
     },

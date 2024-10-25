@@ -14,7 +14,7 @@ const Header = () => {
                 href="/" 
                 className="logo"
                 >
-                    <img src="/images/taco.svg"  width={40} height={40} alt="Jaden Johnson"/>
+                    <img src="images/taco.svg"  width={40} height={40} alt="Jaden Johnson"/>
                 </a>
             </h1>
 
