@@ -22,7 +22,7 @@ const About = () => {
         md:p-12">
             <p className="text-zinc-300 mb-4 md:mb-8
             md:text-xl md:max-w-[60ch]">
-                Welcome! I&apos;m Jaden Johnson, I will be putting the rest of my about me here once I am done developing my portfolio website. Please feel free to keep checking in to see how it's going!
+                Welcome, I&apos;m Jaden Johnson! Here you can find my personal projects and technical skills. Feel free to contact me at the bottom of the page!
             </p>
             <div className="flex flex-wrap items-center gap-4
             md:gap-7">
@@ -42,7 +42,7 @@ const About = () => {
                 }
 
                 <img 
-                src="/images/logo.svg" 
+                src="/images/taco.svg" 
                 alt="Logo" 
                 width={30}
                 height={30}
