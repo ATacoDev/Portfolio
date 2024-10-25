@@ -39,7 +39,7 @@ const works = [
     {
       imgSrc: '/images/Mario.svg',
       title: 'The Mario Project',
-      description: 'Chapman Universities notorious Data Strucutures and Algorithms assignment... The Mario Project',
+      description: "Chapman University's notorious Data Strucutures and Algorithms assignment... The Mario Project",
       tags: ['C++'],
       projectLink: 'https://github.com/ATacoDev/SchoolProjects/tree/master/CPSC350/MarioProject'
     },
