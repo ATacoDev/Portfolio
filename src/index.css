@@ -127,3 +127,15 @@ body {
 .text-field::placeholder {
     @apply text-zinc-400
 }
+
+.footer-logo {
+    @apply mb-4; /* Adds a bit of space between the logo and bottom */
+}
+
+.footer-content {
+    @apply pb-10; /* Ensure some padding is at the bottom of the footer */
+}
+
+.footer {
+    @apply flex items-center justify-between pt-4 pb-6; /* Slightly reduce the top padding */
+}
